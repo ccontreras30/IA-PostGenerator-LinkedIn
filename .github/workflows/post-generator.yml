@@ -4,7 +4,8 @@ on:
   schedule:
     - cron: '0 12 * * *'  # Ejecuta todos los días a las 12:00 UTC
   workflow_dispatch:
-
+permissions:
+  contents: write
 jobs:
   run-script:
     runs-on: ubuntu-latest
