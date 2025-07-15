@@ -34,5 +34,3 @@ jobs:
         git add output/
         git commit -m "Post automático generado 🚀" || echo "Sin cambios que subir"
         git push
-
-      continue-on-error: true
